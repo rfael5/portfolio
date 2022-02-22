@@ -6,13 +6,15 @@
 
 body {
     width: 100%;
+    overflow-x: hidden;
+    margin-left: -2px;
 }
 
 .header {
     width: 100%;
     height: 550px;
     position: relative;
-    overflow: hidden;
+    margin-top: -7px;
 }
 
 .img-wrapper {
@@ -39,17 +41,6 @@ body {
     }
 }
 
-.email  {
-    background: none;
-    color: white;
-    font-weight: bold;
-    font-style: italic;
-    font-size: larger;
-    position: absolute;
-    top: 85%;
-    left: 2%;
-}
-
 .info {
     width: 50%;
     background: none;
@@ -72,21 +63,56 @@ body {
     width: 320px;
 }
 
-.btn-container {
-    background: none;
-    margin-left: 185px
+.description {
+    background-color: #1a1a1a;
+    height: 380px;
+    position: relative;
 }
 
-.btn-container button {
-    background-color: white;
-    color:black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    width: 150px;
-    height: 40px;
-    border-radius: 20px;
-    border: black solid 0.1px;
-    font-size: medium;
+.descricao {
+    margin-top: 60px;
+    position: absolute;
+    background: none;
+    width: 75%;
+    color: white;
+    text-align: justify;
+    left: 13%;
+    font-size: larger;
+}
+
+.email {
+    position: absolute;
+    color: white;
+    background: none;
+    width: 75%;
+    left: 13%;
+    margin-top: 180px;
+    font-size: larger;
+}
+
+.icon-1 {
+    position: absolute;
+    background: none;
+    margin-top: 230px;
+    left: 40%;
+}
+
+.icon-2 {
+    position: absolute;
+    background: none;
+    margin-top: 230px;
+    left: 55%;
+}
+
+.devicon-github-original-wordmark {
+    background: none;
+    font-size: 100px;
+    color: white;
+}
+
+.devicon-linkedin-plain {
+    font-size: 100px;
+    background: none;
 }
 
 .stack {
@@ -114,7 +140,7 @@ body {
 }
 
 .projects {
-    height: 400px;
+    height: 500px;
     border-top: solid white 0.2px;
     margin-bottom: 70px;
 }
@@ -125,6 +151,7 @@ body {
     font-size: xx-large;
     margin-top: 50px;
     font-style: italic;
+    margin-bottom: 50px;
 }
 
 .projects a {
@@ -136,22 +163,46 @@ body {
     justify-content: center;
 }
 
-.project-1 {
-    padding: 90px;
+.md-project {
+    width: 450px;
+    height: 350px;
     padding-top: 50px;
+    border: solid white 1px;
+    justify-content: center;
+    margin-right: 100px;    
 }
 
-.project-1 p {
+.javali-project {
+    width: 450px;
+    height: 350px;
+    padding-top: 50px;
+    border: solid white 1px;
+    justify-content: center;
+}
+
+.md-title-project {
     text-align: center;
     font-weight: bold;
 }
 
-.javali-img {
-    margin-top: 20px;
+.desc-project {
+    width: 400px;    
+    text-align: justify;
+    padding-left: 20px;
 }
 
-.javali-title {
-    margin-top: 45px;
+.md-img {
+    margin-left: 17%;
+}
+
+.javali-img {
+    margin-top: 20px;
+    margin-left: 17%;
+}
+
+.javali-title-project {
+    margin-top: 52px;
+    text-align: center;    
 }
 
 .icon {    
@@ -166,29 +217,85 @@ body {
 }
 
 .devicon-html5-plain-wordmark {
-    font-size:150px
+    font-size:100px
 }
 
 .devicon-css3-plain-wordmark {
-    font-size:150px
+    font-size:100px
 }
 
 .devicon-javascript-plain {
-    font-size:150px
+    font-size:100px
 }
 
 .devicon-php-plain {
-    font-size:150px
+    font-size:100px
 }
 
 .devicon-react-original {
-    font-size:150px
+    font-size:100px
 }
 
 .devicon-tailwindcss-plain {
-    font-size:150px
+    font-size:100px
 }
 
 .devicon-mysql-plain-wordmark {
-    font-size: 150px
+    font-size: 100px
+}
+
+.rodape {
+    background-color: black;
+    width: 100%;
+    margin-left: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: -7px;
+    height: 350px;
+}
+
+.footer-span {
+    text-align: center;
+    background: none;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-span span {
+    background: none;
+    font-size: large;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.footer-icons {
+    background: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icons h2{
+    background: none;
+    color: white;
+    margin-bottom: 40px;
+    font-size: xx-large;
+}
+
+.footer-icons a {
+    text-decoration: none;
+    background: none;
+    margin-left: 20px;
+}
+
+.icon-footer {
+    font-size: 55px;
+    padding: 15px;    
+}
+
+.devicon-linkedin-plain {
+    color: white;
 }
