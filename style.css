@@ -1,6 +1,6 @@
 * {
     background-color: #1a1a1a;
-    color: #b3b3b3;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;    
 }
 
@@ -97,11 +97,21 @@ body {
     left: 40%;
 }
 
+.icon-1:hover {
+    transform: scale(1.1);
+    transition: all ease 0.2s;
+}
+
 .icon-2 {
     position: absolute;
     background: none;
     margin-top: 230px;
     left: 55%;
+}
+
+.icon-2:hover {
+    transform: scale(1.1);
+    transition: all ease 0.2s;
 }
 
 .devicon-github-original-wordmark {
@@ -117,8 +127,8 @@ body {
 
 .stack {
     align-items: center;
-    margin-top: 70px;
-    margin-bottom: 60px;
+    margin-top: 120px;
+    margin-bottom: 100px;
 }
 
 .img-container {
@@ -141,8 +151,8 @@ body {
 
 .projects {
     height: 500px;
-    border-top: solid white 0.2px;
     margin-bottom: 70px;
+    margin-top: 20px;
 }
 
 .projects h2 {
@@ -165,44 +175,94 @@ body {
 
 .md-project {
     width: 450px;
-    height: 350px;
+    height: 380px;
     padding-top: 50px;
-    border: solid white 1px;
     justify-content: center;
-    margin-right: 100px;    
+    margin-right: 100px;
+    background-color: #262626;
+    box-shadow: 10px 5px 5px black;
 }
 
 .javali-project {
     width: 450px;
-    height: 350px;
+    height: 380px;
     padding-top: 50px;
-    border: solid white 1px;
     justify-content: center;
+    background-color: #262626;
+    box-shadow: 10px 5px 5px black;
 }
 
 .md-title-project {
     text-align: center;
     font-weight: bold;
+    background: none;
 }
 
 .desc-project {
     width: 400px;    
     text-align: justify;
     padding-left: 20px;
+    background: none;
 }
 
 .md-img {
     margin-left: 17%;
+    background: none;
+    margin-bottom: 15px;
+}
+
+.links-projeto-md {
+    background: none;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.p-md {
+    background: none;
+    font-weight: bold;    
+}
+
+.p-md:hover {
+    color:orange;
+    transition: 0.5s;
+}
+
+.g-md {
+    background: none;
+    font-weight: bold;
+}
+
+.g-md:hover {
+    color:orange;
+    transition: 0.5s;
+}
+
+.links-projeto-javali {
+    background: none;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.g-javali {
+    background: none;
+    font-weight: bold;
+}
+
+.g-javali:hover {
+    color: orange;
+    transition: 0.5s;
 }
 
 .javali-img {
     margin-top: 20px;
     margin-left: 17%;
+    background: none;
 }
 
 .javali-title-project {
     margin-top: 52px;
-    text-align: center;    
+    text-align: center;  
+    background: none;  
 }
 
 .icon {    
@@ -294,6 +354,11 @@ body {
 .icon-footer {
     font-size: 55px;
     padding: 15px;    
+}
+
+.icon-footer:hover {
+    color: #1e90ff;
+    transition: 0.5s;
 }
 
 .devicon-linkedin-plain {
